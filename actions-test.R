@@ -17,3 +17,12 @@ gitcreds::gitcreds_set()        # I replaced token.
 
 # Adding something to test pushing. Looks like the above worked (the Action
 #  runs but fails, presumably because this isn't set up as an R package).
+
+# Confusing, as thought it was working, though this is to set up simpler version
+#  I think (which implies setting up a new Action is not currently working!).
+# > usethis::use_github_action_check_release()
+# Error: GitHub PAT must have one of these forms:
+#   * 40 hexadecimal digits (older PATs)
+#  * A 'ghp_' prefix followed by 36 to 251 more characters (newer PATs)
+# Type .Last.error.trace to see where the error occurred
+# >
