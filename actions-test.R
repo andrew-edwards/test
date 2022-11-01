@@ -14,3 +14,6 @@ usethis::create_github_token()  # opens up GitHub. Retain defaults, though maybe
                                 # increase the expiry to 90 days (GitHub doesn't
                                 # recommend the 'never expire' option).
 gitcreds::gitcreds_set()        # I replaced token.
+
+# Adding something to test pushing. Looks like the above worked (the Action
+#  runs but fails, presumably because this isn't set up as an R package).
